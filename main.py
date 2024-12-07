@@ -22,8 +22,8 @@ for i in range(SIZE - 1):
         break
 
 if ThirdPoint and ThirdPoint[0] == X:
-    print(f" value at x = {X} is y = {ThirdPoint[1]}")
+    print(f"Interpolated value at x = {X} is y = {ThirdPoint[1]}")
 else:
 
     result =  (X - FirstPoint[0]) * (SecondPoint[1] - FirstPoint[1]) / (SecondPoint[0] - FirstPoint[0]) + FirstPoint[1]
-    print(f" value at x = {X} is y = {result}")
+    print(f"Interpolated value at x = {X} is y = {result}")
